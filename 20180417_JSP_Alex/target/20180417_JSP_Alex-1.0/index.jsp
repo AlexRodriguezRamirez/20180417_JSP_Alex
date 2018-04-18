@@ -14,7 +14,7 @@
     </head>
     <body class="contenido">
         <h1>Procesar datos de un formulario</h1>
-            <p><a href="JSP/entrada.jsp?url=procesarDatos.jsp">Con JSP estándar</a></p>
-            <p><a href="JSP/entrada.jsp?url=procesarDatosEL.jsp&Tipo=EL">Con JSP EL</a></p>
+            <p><a href="JSP/entrada.jsp?url=procesar">Con JSP estándar</a></p>
+            <p><a href="JSP/entrada.jsp?url=procesar&Tipo=EL">Con JSP EL</a></p>
     </body>
 </html>

@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" href="../CSS/estilos.css"/>
     </head>
     <body class="contenido">
-        <form action="<%=request.getContextPath()%>/procesar" method="post">
+        <form action="<%=request.getContextPath()%>/<%=request.getParameter("url")%>" method="post">
             <table>
                 <tr>
                     <td><label for="nombre">Nombre: </label></td>
